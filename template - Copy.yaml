@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: CD Demo Lambda
+Resources:
+  CDDemoLambda:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.6
+      CodeUri: LambdaCode
+      Description: 'Lambda function for CD Demo'
+      MemorySize: 128
+      Timeout: 30
+      Role: 'arn:aws:iam::062767682145:role/Kishore-lambda-layer'
+      Events:
+        getAZsAPI:
+          Type: Api
+          Properties:
+            Path: /getazs
+            Method: get
+      Environment:
+        Variables:
+          REGION: us-east-2
