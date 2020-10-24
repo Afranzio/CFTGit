@@ -10,7 +10,7 @@ Resources:
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
       Timeout: 30
-      Role: 'arn:aws:iam::062767682145:role/Kishore-lambda-layer'
+      Role: 'arn:aws:iam::062767682145:role/CFT-Admin'
       Events:
         getAZsAPI:
           Type: Api
