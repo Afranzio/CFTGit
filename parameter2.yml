@@ -1,6 +1,6 @@
 [
         {
             "ParameterKey": "S3BucketName",
-            "ParameterValue": "project2"
+            "ParameterValue": "gnx-test-project2"
          }
 ]
