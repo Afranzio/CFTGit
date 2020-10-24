@@ -3,4 +3,4 @@ Resources:
     Type: AWS::S3::Bucket
     DeletionPolicy: Retain
     Properties:
-      BucketName: gnxcftdemobucket-project1
+      BucketName: CheckDeletion-project1
