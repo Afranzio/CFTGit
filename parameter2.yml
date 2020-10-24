@@ -1,6 +1,6 @@
 [
         {
-            "ParameterKey": "s3bucket",
+            "ParameterKey": "S3BucketName",
             "ParameterValue": "project2"
          }
 ]
