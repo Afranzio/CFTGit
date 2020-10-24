@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: CFT Template
 Resources:
   CDDemoLambda:
-    Type: 'AWS::Serverless::Function'
+    Type: 'AWS::S3::Bucket'
     Properties:
       Role: 'arn:aws:iam::062767682145:role/CFT-Admin'
       Environment:
