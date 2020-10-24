@@ -1,0 +1,6 @@
+[
+        {
+            "ParameterKey": "s3bucket",
+            "ParameterValue": "project1"
+         }
+]
