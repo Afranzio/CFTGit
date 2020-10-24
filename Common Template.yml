@@ -1,0 +1,14 @@
+[
+        {
+            "ParameterKey": "Type",
+            "ParameterValue": "AWS::CloudFormation::Interface"
+        },
+        {
+            "ParameterKey": "LambdaExecutionRoleArn",
+            "ParameterValue": "arn:aws:iam::062767682145:role/CFT-Admin"
+        },
+        {
+            "ParameterKey": "REGION",
+            "ParameterValue": "us-east-2"
+        }
+]
