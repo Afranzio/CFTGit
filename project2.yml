@@ -3,4 +3,4 @@ Resources:
     Type: AWS::S3::Bucket
     DeletionPolicy: Retain
     Properties:
-      BucketName: checkdeletion-project2
+      BucketName: checkdeletion-project222
